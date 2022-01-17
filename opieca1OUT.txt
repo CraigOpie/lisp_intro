@@ -1,0 +1,135 @@
+Script started on 2022-01-16 17:50:04-10:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="238" LINES="89"]
+                                                                                                                                                                                                                                              ]0;craig@deathstar: ~/Git/school/313/00_lisp_intro[0m[27m[24m[J[32m┌──([1m[32m[34mcraig㉿deathstar[0m[34m[32m)-[[1m[32m[39m~/Git/school/313/00_lisp_intro[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31ms[0m[39m[38;2;153;153;153mbcl --load opieca1.lisp[39m[23D[0m[32ms[32mb[39m[1m[31ms[1m[31mb[1m[31mc[0m[39m[0m[32ms[0m[32mb[0m[32mc[32ml[39m[39m [35m-[35m-[35ml[35mo[35ma[35md[39m[39m [39m[4mo[39m[4mp[39m[4mi[39m[4me[39m[4mc[39m[4ma[39m[4m1[39m[4m.[39m[4ml[39m[4mi[39m[4ms[39m[4mp[24m[?1l>[?2004l
+This is SBCL 2.1.9.debian, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+
+; file: /home/craig/Git/school/313/00_lisp_intro/opieca1.lisp
+; in: DEFUN START-GUESS-NUMBER
+;     (GUESS-NUMBER 1 101)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::GUESS-NUMBER
+; 
+; compilation unit finished
+;   Undefined function:
+;     GUESS-NUMBER
+;   caught 1 STYLE-WARNING condition
+* (start-guess-number)
+
+Pick a number between 1 and 100.
+
+Is your number 1
+51? (answer YES, BIGGER, SMALLER, or EXIT): I don't understand. Please try again.
+
+Is your number SMALLF ER
+51? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number SMALLER
+26? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number SMALLER
+13? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number SMALLER
+7? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number SMALLER
+4? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number SMALLER
+2? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number SMALLER
+1? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number E YES) ' 
+1? (answer YES, BIGGER, SMALLER, or EXIT): 
+Yay, I got it!
+T
+* (start-guess-number)
+
+Pick a number between 1 and 100.
+
+Is your number 42
+51? (answer YES, BIGGER, SMALLER, or EXIT): I don't understand. Please try again.
+
+Is your number SMALLER
+51? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number SMALLER
+26? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number BIGGER
+13? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number BIGGER
+19? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number BIGGER
+22? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number BIGGER
+24? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number BIGGER
+25? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number BIGGER
+25? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number EXIT
+25? (answer YES, BIGGER, SMALLER, or EXIT): 
+NIL
+* (start-guess-n number)
+
+Pick a number between 1 and 100.
+
+Is your number 89
+51? (answer YES, BIGGER, SMALLER, or EXIT): I don't understand. Please try again.
+
+Is your number BIGGER
+51? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number BIGGER
+76? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number BIGGER
+88? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number BIGGER
+94? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number SMALLER
+97? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number SMALLER
+95? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number SMALLER
+94? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number SMALLER
+94? (answer YES, BIGGER, SMALLER, or EXIT): 
+Is your number EXIT
+94? (answer YES, BIGGER, SMALLER, or EXIT): 
+NIL
+* (quit)
+                                                                                                                                                                                                                                              ]0;craig@deathstar: ~/Git/school/313/00_lisp_intro
+[0m[27m[24m[J[32m┌──([1m[32m[34mcraig㉿deathstar[0m[34m[32m)-[[1m[32m[39m~/Git/school/313/00_lisp_intro[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31me[0m[39m[38;2;153;153;153mxit[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?1l>[?2004l
+
+Script done on 2022-01-16 17:53:03-10:00 [COMMAND_EXIT_CODE="0"]
+Script started on 2022-01-16 17:53:21-10:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="238" LINES="89"]
+                                                                                                                                                                                                                                              ]0;craig@deathstar: ~/Git/school/313/00_lisp_intro[0m[27m[24m[J[32m┌──([1m[32m[34mcraig㉿deathstar[0m[34m[32m)-[[1m[32m[39m~/Git/school/313/00_lisp_intro[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[32mexit[39m[39m [39m [39m [39m [1m[31ms[0m[39m[38;2;153;153;153mbcl --load opieca1.lisp[39m[23D[0m[32ms[32mb[39m[32ms[32mb[32mc[32ml[39m[39m [35m-[35m-[35ml[35mo[35ma[35md[39m[39m [39m[4mo[39m[4mp[39m[4mi[39m[4me[39m[4mc[39m[4ma[39m[4m1[39m[4m.[39m[4ml[39m[4mi[39m[4ms[39m[4mp[24m[?1l>[?2004l
+This is SBCL 2.1.9.debian, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+
+; file: /home/craig/Git/school/313/00_lisp_intro/opieca1.lisp
+; in: DEFUN START-GUESS-NUMBER
+;     (GUESS-NUMBER 1 101)
+; 
+; caught STYLE-WARNING:
+;   undefined function: COMMON-LISP-USER::GUESS-NUMBER
+; 
+; compilation unit finished
+;   Undefined function:
+;     GUESS-NUMBER
+;   caught 1 STYLE-WARNING condition
+* +ID+
+"Craig Opie"
+* (quit)
+                                                                                                                                                                                                                                              ]0;craig@deathstar: ~/Git/school/313/00_lisp_intro
+[0m[27m[24m[J[32m┌──([1m[32m[34mcraig㉿deathstar[0m[34m[32m)-[[1m[32m[39m~/Git/school/313/00_lisp_intro[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[1m[31me[0m[39m[38;2;153;153;153mxit[39m[0m[32me[32mx[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[0m[32me[0m[32mx[0m[32mi[32mt[39m[?1l>[?2004l
+
+Script done on 2022-01-16 17:53:48-10:00 [COMMAND_EXIT_CODE="0"]
