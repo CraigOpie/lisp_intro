@@ -1,0 +1,48 @@
+Script started on Wed 12 Jan 2022 02:00:22 PM HST
+]0;opieca@uhx02:~/ICS313/assignment_1[?1034huhx02:/home/o/opieca/ICS313/assignment_1% cd ..
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% ls
+[0m[38;5;27massignment_1[0m
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% mkdir assignment_1/[K[K2
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% ls -alrt
+total 0
+drwx-----x. 10 opieca uh 263 Jan 12 13:59 [0m[38;5;27m..[0m
+drwxr-xr-x.  2 opieca uh  28 Jan 12 14:00 [38;5;27massignment_1[0m
+drwxr-xr-x.  2 opieca uh   6 Jan 12 14:00 [38;5;27massignment_2[0m
+drwxr-xr-x.  4 opieca uh  46 Jan 12 14:00 [38;5;27m.[0m
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% chmod 777 assignment_2
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% ls
+[0m[38;5;27massignment_1[0m  [48;5;10;38;5;21massignment_2[0m
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% ls -alrt
+total 0
+drwx-----x. 10 opieca uh 263 Jan 12 13:59 [0m[38;5;27m..[0m
+drwxr-xr-x.  2 opieca uh  28 Jan 12 14:00 [38;5;27massignment_1[0m
+drwxrwxrwx.  2 opieca uh   6 Jan 12 14:00 [48;5;10;38;5;21massignment_2[0m
+drwxr-xr-x.  4 opieca uh  46 Jan 12 14:00 [38;5;27m.[0m
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% rm -rf assignment_2
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% ls
+[0m[38;5;27massignment_1[0m
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% echo "follow the wi[Khite rabit" > test.txt
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% ls
+[0m[38;5;27massignment_1[0m  test.txt
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% cat v[Ktest.txt 
+follow the white rabit
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% cp test.txt test.txt [K[K[K[K[K2[K.txt.orig
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% echo "ass[K[Kdding to the file"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kinto a dark hole" >> test.txt
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% cat test.txt
+follow the white rabit
+into a dark hole
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% rm test.txt*
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% ls
+[0m[38;5;27massignment_1[0m
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% gr[K[Kdmesg | grep usb
+[    0.435904] [01;31m[Kusb[m[Kcore: registered new interface driver [01;31m[Kusb[m[Kfs
+[    0.435911] [01;31m[Kusb[m[Kcore: registered new interface driver hub
+[    0.435976] [01;31m[Kusb[m[Kcore: registered new device driver [01;31m[Kusb[m[K
+[    0.825302] [01;31m[Kusb[m[Kcore: registered new interface driver [01;31m[Kusb[m[Kserial_generic
+[    0.825307] [01;31m[Kusb[m[Kserial: USB Serial support registered for generic
+[    0.829104] [01;31m[Kusb[m[Kcore: registered new interface driver [01;31m[Kusb[m[Khid
+[    0.829105] [01;31m[Kusb[m[Khid: USB HID core driver
+]0;opieca@uhx02:~/ICS313uhx02:/home/o/opieca/ICS313% exit
+exit
+
+Script done on Wed 12 Jan 2022 02:03:04 PM HST
